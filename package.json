@@ -1,0 +1,29 @@
+{
+  "name": "pg-redis-declarative-cache-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stockholmux/pg-redis-declarative-cache-demo.git"
+  },
+  "author": "Kyle Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stockholmux/pg-redis-declarative-cache-demo/issues"
+  },
+  "homepage": "https://github.com/stockholmux/pg-redis-declarative-cache-demo#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "faker": "^4.1.0",
+    "murmurhash-js": "^1.0.0",
+    "redis": "^3.0.2",
+    "set-interval-async": "^1.0.30",
+    "slonik": "^22.4.3",
+    "slonik-interceptor-query-cache": "^2.0.1",
+    "slonik-redis-cache": "^1.0.0"
+  }
+}
